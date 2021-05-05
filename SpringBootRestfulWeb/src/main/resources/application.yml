@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: demo-1
+  datasource:
+    url: jdbc:mysql://localhost/world
+    username: root
+    password: 0911084978abyaleW
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
