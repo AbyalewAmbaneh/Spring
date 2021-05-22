@@ -1,0 +1,19 @@
+A) Average without strategy 2000
+
+B)
+#Averages using Batch References, above class Owner
+size=10 (2107)
+size=5 (2385)
+size=50 (2320)
+
+#Averages using Batch Collection, above pets list on class Owner
+size=10 (592)
+size=5 (746)
+size=50 (470)
+
+C) Average sub-select strategy: 441
+
+D) Average Join Fetch Query: 460
+
+E) Average Always Join strategy (EAGER): 1300
+ 
